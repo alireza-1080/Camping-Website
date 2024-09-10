@@ -1,0 +1,21 @@
+.footer-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+}
+
+
+.footer-list__h3 {
+    font-family: var(--archivoBlack);
+    font-size: 1.8rem;
+}
+
+
+.footer-list__list-item--link {
+    color: black;
+    cursor: pointer;
+}
+
+.footer-list__list-item--link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+.hamburger-menu-buttons-section {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: flex-start;
+    align-content: flex-start;
+    row-gap: 2rem;
+}

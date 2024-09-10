@@ -1,0 +1,28 @@
+.header {
+    width: 100vw;
+}
+
+.header__background {
+    width: 100%;
+    /* height: 95%; */
+    /* min-height: 70rem; */
+    height: 80rem;
+    background: linear-gradient(rgba(59,55,53,0.5), rgba(59,55,53,0.5)), url(./images/header/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    align-content: flex-start;
+    row-gap: 6rem;
+}
+
+@media (max-width: 1024px) {
+    .header__background {
+        height: 70rem;
+    }
+}

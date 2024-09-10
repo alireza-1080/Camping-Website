@@ -1,0 +1,14 @@
+.hamburger-sign-section {
+    width: 100%;
+
+    display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    row-gap: 1rem;
+}
+
+@media (max-width: 470px) {
+    .hamburger-sign-section{
+        display: grid;
+    }
+}

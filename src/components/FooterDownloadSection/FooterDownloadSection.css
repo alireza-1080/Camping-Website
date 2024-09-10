@@ -1,0 +1,44 @@
+.footer-download-section {
+    width: fit-content;
+    font-family: var(--archivoBlack);
+    font-size: 1.8rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+        "t t"
+        "a g"
+    ;
+
+    row-gap: 1rem;
+    column-gap: 2rem;
+}
+
+.footer-download-section__title {
+    grid-area: t;
+}
+
+.footer-download-section__apple-container {
+    grid-area: a;
+    cursor: pointer;
+}
+
+.footer-download-section__google-container {
+    grid-area: g;
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .footer-download-section {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: 
+            "t"
+            "a"
+            "g"
+        ;
+    
+        row-gap: 1rem;
+    }
+}

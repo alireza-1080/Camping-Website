@@ -1,0 +1,38 @@
+.hamburger-menu-button {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 2.6rem;
+
+}
+
+.hamburger-menu-button__title {
+    color: #fff;
+    font-family: var(--robotoRegular);
+    transition: all 200ms linear;
+
+    position: absolute;
+    left: 0;
+}
+
+.hamburger-menu-button__title--active {
+    left: 2.5rem;
+}
+
+.hamburger-menu-button__line {
+    display: block;
+    height: 0.3rem;
+    background-color: var(--primary-color);
+    transition: all 200ms linear;
+
+    position: absolute;
+    top: calc(50% - 0.15rem);
+    left: 0;
+}
+
+.hamburger-menu-button__line--active {
+    width: 2rem;
+}

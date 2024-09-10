@@ -1,0 +1,12 @@
+.hamburger-menu-title {
+    color: #fff;
+    font-family: var(--archivoBlack);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}

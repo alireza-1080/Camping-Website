@@ -1,0 +1,14 @@
+.header-content-title__h1 {
+    font-size: 5rem;
+    color: #fff;
+    max-width: 35rem;
+    font-family: var(--archivoBlack);
+    line-height: 1.2;
+    text-align: center;
+}
+
+@media (max-width: 370px) {
+    .header-content-title__h1 {
+        font-size: 3.8rem;
+    }
+}

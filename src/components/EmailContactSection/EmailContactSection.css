@@ -1,0 +1,105 @@
+.email-contact-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "detail pic"
+        "input pic";
+    padding: 2rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    row-gap: 2rem;
+
+    margin-top: 8rem;
+    background-color: var(--secondary-color);
+
+    position: relative;
+}
+
+.email-contact-section__bg-helper {
+    width: 100%;
+
+    position: absolute;
+    top: -65rem;
+    left: -64rem;
+    z-index: 0;
+}
+
+.email-contact-section__bg-helper-img {
+    width: 100%;
+}
+
+.email-contact-section__picture {
+    grid-area: pic;
+
+    position: relative;
+}
+
+.email-contact-section__details {
+    grid-area: detail;
+
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: flex-end;
+}
+
+.email-contact-section-input {
+    grid-area: input;
+
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: flex-start;
+}
+
+@media (max-width: 1420px) {
+    .email-contact-section {
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .email-contact-section {
+        padding: 5rem 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "pic"
+            "detail"
+            "input";
+            row-gap: 4rem;
+    }
+
+    .email-contact-section__bg-helper {
+        top: -40rem;
+        left: -38rem;
+    }
+}
+
+@media (max-width: 352px) {
+    .email-contact-section {
+        row-gap: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .email-contact-section__bg-helper {
+        top: -25rem;
+        left: -25rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .email-contact-section__bg-helper {
+        top: -5rem;
+        left: -10rem;
+    }
+}

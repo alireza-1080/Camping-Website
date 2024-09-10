@@ -1,0 +1,19 @@
+.body {
+    width: 100vw;
+    background-color: #FAF4F2;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Media Queries */
+
+@media (max-width: 1400px) {
+    .container {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+}

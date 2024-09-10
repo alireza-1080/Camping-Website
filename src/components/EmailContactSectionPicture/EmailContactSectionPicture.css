@@ -1,0 +1,12 @@
+.email-contact-section-picture {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.email-contact-section-picture__img {
+    width: 100%;
+    max-width: 420px;
+}

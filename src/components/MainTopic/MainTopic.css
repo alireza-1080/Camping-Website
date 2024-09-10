@@ -1,0 +1,23 @@
+.main-topic {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: center;
+    row-gap: 1rem;
+
+    background-color: #fff;
+    height: 26rem;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.main-topic__title{
+    font-family: var(--archivoBlack);
+    font-size: 1.8rem;
+    color: var(--primary-dark);
+}
+
+.main-topic__detail{
+    text-align: center;
+    color: var(--primary-dark);
+}

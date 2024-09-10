@@ -1,0 +1,24 @@
+.footer-go-to-top-button {
+    font-size: 3rem;
+    background-color: #fff;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2rem;
+    color: var(--primary-color);
+    border: 1.2px solid var(--primary-color);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer-go-to-top-button__icon {
+    transform: scale(0.8);
+    transition: all 200ms linear;
+}
+
+.footer-go-to-top-button:hover .footer-go-to-top-button__icon {
+    transform: scale(1);
+}

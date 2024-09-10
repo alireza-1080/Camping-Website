@@ -1,0 +1,31 @@
+.header-desktop-navigation-button {
+    color: #fff;
+    font: var(--robotoRegular);
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1;
+    padding-bottom: 0.5rem;
+
+    position: relative;
+}
+
+.header-desktop-navigation-button__line::after {
+    content: "";
+    width: 100%;
+    height: 0.3rem;
+    background-color: var(--primary-color);
+    z-index: -1;
+    border-radius: 10rem;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    transform: scaleX(0);
+    transition: all 200ms linear ;
+}
+
+.header-desktop-navigation-button--active--active::after {
+    transform: scaleX(1);
+    transition: all 200ms linear 200ms;
+}

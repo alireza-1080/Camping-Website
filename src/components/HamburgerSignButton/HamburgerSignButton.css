@@ -1,0 +1,21 @@
+.hamburger-sign-button {
+    width: 100%;
+    color: #fff;
+    font-family: var(--robotoMedium);
+    height: 5rem;
+    cursor: pointer;
+    border: 0.12rem solid #fff;
+    border-radius: 1rem;
+    transition: all 200ms linear;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.hamburger-sign-button:hover{
+    background-color: #fff;
+    color: var(--primary-dark);
+}

@@ -1,0 +1,25 @@
+.header-sign-button {
+    font-family: var(--robotoMedium);
+    font-size: 1.8rem;
+    color: #fff;
+    width: 13rem;
+    height: 5rem;
+    cursor: pointer;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.header-sign-button--border-type {
+    border: 1.2px solid #fff;
+    border-radius: 10rem;
+    transition: all 200ms linear;
+}
+
+.header-sign-button--border-type:hover {
+    background-color: #fff;
+    color: var(--primary-dark);
+}

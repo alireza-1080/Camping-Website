@@ -1,0 +1,54 @@
+/* Fonts */
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Archivo-Black";
+  src: url(fonts/Archivo/Archivo-Black.ttf);
+}
+
+@font-face {
+  font-family: "Archivo-Regular";
+  src: url(fonts/Archivo/Archivo-Regular.ttf);
+}
+
+/* My personal reset codes */
+:root {
+  --robotoRegular: "Roboto-Regular";
+  --robotoMedium: "Roboto-Medium";
+  --archivoBlack: "Archivo-Black";
+  --archivoRegular: "Archivo-Regular";
+
+  --primary-color: #E76F51;
+  --secondary-color: #F8E1DB;
+  --primary-dark: #3B3735;
+
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--robotoRegular);
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

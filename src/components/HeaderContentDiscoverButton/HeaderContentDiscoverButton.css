@@ -1,0 +1,16 @@
+.header-content-discover-button__btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: all 200ms linear;
+    border-radius: 10rem;
+    width: 18rem;
+    height: 5rem;
+    font-family: var(--robotoMedium);
+    font-size: 1.8rem;
+    border: 1.2px solid #fff;
+}
+
+.header-content-discover-button__btn:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}

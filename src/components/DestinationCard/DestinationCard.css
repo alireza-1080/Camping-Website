@@ -1,0 +1,126 @@
+.destination-card {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 2rem;
+    overflow: hidden;
+    color: var(--primary-dark);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+}
+
+.destination-card__image-container {
+    width: 100%;
+
+    position: relative;
+}
+
+.destination-card__img {
+    width: 100%;
+}
+
+.destination-card__like-icon-container {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+
+    width: 35px;
+    height: 35px;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.destination-card__like-icon-container-position-adjuster {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+}
+
+.destination-card__like-icon {
+    position: absolute;
+    top: calc(50% - 15px);
+    right: calc(50% - 12.5px);
+
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.destination-card__like-icon--filled {
+    transform: scale(0);
+    transition: all 200ms linear;
+}
+
+.destination-card__like-icon--filled-appear {
+    transform: scale(1);
+}
+
+.destination-card__pricing {
+    font-family: var(--robotoMedium);
+    color: var(--primary-color);
+    background-color: #fff;
+    width: 10rem;
+    border-radius: 0.7rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0.2rem;
+    left: calc(50% - 5rem);
+}
+
+.destination-card__content-container {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.destination-card__title {
+    font-family: var(--archivoBlack);
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-align: center;
+}
+
+.destination-card__details {
+    font-family: var(--robotoRegular);
+    line-height: 2.8rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+.destination-card__read-more-button {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.destination-card__read-more-button-h5 {
+    width: fit-content;
+    color: #8D8D8D;
+    background-color: rgba(141, 141, 141, 0.1);
+    font-family: var(--robotoMedium);
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    padding: 1rem 5rem;
+    border-radius: 2.5rem;
+    transition: all 200ms linear;
+    cursor: pointer;
+}
+
+.destination-card__read-more-button-h5:hover {
+    color: var(--primary-color);
+    background-color: rgba(231, 111, 81, 0.1);
+}
