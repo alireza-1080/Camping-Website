@@ -1,4 +1,4 @@
-import "./DestinationsSectionHeader.CSS"
+import "./DestinationsSectionHeader.css"
 import React from 'react'
 import DestinationsSectionHeaderLogo from "../DestinationsSectionHeaderLogo/DestinationsSectionHeaderLogo"
 import DestinationsSectionHeaderTitle from "../DestinationsSectionHeaderTitle/DestinationsSectionHeaderTitle"
