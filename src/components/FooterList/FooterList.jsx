@@ -7,7 +7,6 @@ function FooterList({ title, list, generateLink }) {
 
     useEffect(() => {
         if (!generateLink) {
-            console.log(listItem.current)
             listItem.current.classList.remove("footer-list__list-item--link")
         }
     }, [])
