@@ -7,7 +7,7 @@
     /* height: 95%; */
     /* min-height: 70rem; */
     height: 80rem;
-    background: linear-gradient(rgba(59,55,53,0.5), rgba(59,55,53,0.5)), url(./images/header/header-bg.jpg);
+    background: linear-gradient(rgba(59,55,53,0.5), rgba(59,55,53,0.5)), url("./images/header/header-bg.jpg");
     background-position: center;
     background-size: cover;
     border-bottom-left-radius: 10rem;
