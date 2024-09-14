@@ -6,17 +6,17 @@
 
 @font-face {
   font-family: "Roboto-Medium";
-  src: url(fonts/Roboto/Roboto-Medium.ttf);
+  src: url(./fonts/Roboto/Roboto-Medium.ttf);
 }
 
 @font-face {
   font-family: "Archivo-Black";
-  src: url(fonts/Archivo/Archivo-Black.ttf);
+  src: url(./fonts/Archivo/Archivo-Black.ttf);
 }
 
 @font-face {
   font-family: "Archivo-Regular";
-  src: url(fonts/Archivo/Archivo-Regular.ttf);
+  src: url(./fonts/Archivo/Archivo-Regular.ttf);
 }
 
 /* My personal reset codes */
