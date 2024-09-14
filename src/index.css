@@ -1,22 +1,22 @@
 /* Fonts */
 @font-face {
   font-family: "Roboto-Regular";
-  src: url(/fonts/Roboto/Roboto-Regular.ttf) format('ttf');
+  src: url(./fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
   font-family: "Roboto-Medium";
-  src: url(/fonts/Roboto/Roboto-Medium.ttf) format('ttf');
+  src: url(./fonts/Roboto/Roboto-Medium.ttf);
 }
 
 @font-face {
   font-family: "Archivo-Black";
-  src: url(/fonts/Archivo/Archivo-Black.ttf) format('ttf');
+  src: url(./fonts/Archivo/Archivo-Black.ttf);
 }
 
 @font-face {
   font-family: "Archivo-Regular";
-  src: url(/fonts/Archivo/Archivo-Regular.ttf) format('ttf');
+  src: url(./fonts/Archivo/Archivo-Regular.ttf);
 }
 
 /* My personal reset codes */
